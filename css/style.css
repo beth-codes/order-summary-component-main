@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    display: grid;
+    justify-content: center;
+    max-width: 1440px;
+    text-align: center
+}
+
+.container{
+    text-align: center; 
+    margin: 50px 0;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 2px 2px 8px 5px hsl(220, 88%, 90%);
+}
+
+main{ 
+    padding: 0 40px;
+    max-width: 450px;
+}
+
+.head-section img{
+    border-radius: 10px 10px 0 0;
+}
+
+.about-section h1{
+    padding: 25px 0;
+}
+
+.about-content{
+    padding: 0 40px 20px 40px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: hsl(224, 23%, 55%); 
+}
+
+.plan{
+    display: flex;
+    justify-content: space-evenly;
+    background:  hsl(227, 36%, 95%);
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.text{
+    text-align: left;
+    padding-right: 100px;
+    padding-top: 3px;
+}
+.link{
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.link a{
+    text-decoration: underline;
+}
+
+.link a:hover{
+    text-decoration: none;
+}
+
+small{
+    color: hsl(224, 23%, 55%);
+}
+
+.payment-container{
+    margin: 20px 0;
+}
+
+.btn{
+    background: hsl(228, 42%, 56%);
+    padding: 20px 0;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: hsl(228, 50%, 51%);
+}
+
+.payment-container .btn a{
+    color: #fff;
+}
+
+.payment-container a{
+    color: rgb(71, 69, 69);
+}
+
+.payment-container h4 a:hover{
+    color: #000;
+}
+
+
+@media screen and (max-width: 600px){
+    body{
+        height: 100vh;
+    
+    }
+
+    .container{
+        max-width: 700px;
+        margin: 30px 25px;
+    }
+
+    .about-content{
+        padding: 10px 15px;
+        line-height: 1.5;
+        letter-spacing: 0px;
+        color: hsl(224, 23%, 55%);
+    }
+    
+    .text{
+        padding-right: 50px;
+        padding-top: 3px;
+    }
+}
